@@ -2,6 +2,8 @@ body{
     padding-left: 250px ;
     padding-right: 250px;
     background-color: #1f2531;
+    display: flex;
+    flex-direction: column;
 }
 div{
     color: #fbfefd;
@@ -18,6 +20,7 @@ div{
     display: flex;
     align-items: center;
     gap: 1em;
+    font-weight: bold;
 
 }
 img#logo{
