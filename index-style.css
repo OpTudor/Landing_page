@@ -18,12 +18,15 @@ div{
 ul{
     list-style-type: none;
     display: flex;
-    gap: 5em;
     margin: 0;
     padding: 0; 
 }
 nav{
     margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
 }
 a{
     text-decoration: none;
