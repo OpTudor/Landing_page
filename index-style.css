@@ -185,11 +185,7 @@ a{
     font-size: 18px;
 }
 .signup-button{
-    border: 2px solid #0b3c5d;
-    border-radius: 0.5em;
     flex-shrink: 0;
-}
-button {
     background-color: transparent;
     font-size: 18px;
     border: none;
@@ -199,3 +195,8 @@ button {
     padding-right: 2em;
     cursor: pointer;
 }
+div>a{
+    border: 2px solid #0b3c5d;
+    border-radius: 0.5em;
+}
+
