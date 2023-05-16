@@ -127,3 +127,25 @@ a{
     width: 150px;
     display: flex;
 }
+.container{
+    background-color: #0b3c5d;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.quote{
+    font-size: 36px;
+    color: #d9b311;
+    display: flex;
+    padding-top: 5em;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+.name{
+    display: flex;
+    font-size: 24px;
+    justify-content: flex-end;
+    padding-left: 5em;
+    padding-right: 12em;
+    padding-bottom: 5em;
+}
