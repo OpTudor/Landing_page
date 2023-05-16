@@ -31,6 +31,7 @@ nav{
 a{
     text-decoration: none;
     color:#fbfefd !important;
+    display: inline-block;
 }
 .header{
     display: flex;
@@ -127,12 +128,14 @@ a{
     width: 150px;
     display: flex;
 }
-.container{
+.content3{
     background-color: #0b3c5d;
     display: flex;
     flex-direction: column;
     gap: 2em;
 }
+
+
 .quote{
     font-size: 36px;
     color: #d9b311;
@@ -140,6 +143,8 @@ a{
     padding-top: 5em;
     padding-left: 5em;
     padding-right: 5em;
+    display: flex;
+    flex-wrap: wrap;
 }
 .name{
     display: flex;
@@ -148,4 +153,49 @@ a{
     padding-left: 5em;
     padding-right: 12em;
     padding-bottom: 5em;
+}
+.content4{
+   padding-top: 5em;
+   padding-bottom: 5em;
+}
+.signup{
+    background-color: #d9b311;
+    display: flex;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    padding-left: 12em;
+    padding-right: 12em;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.signup-text{
+    display: flex;
+    flex-direction: column;
+}
+.signup-title,
+.signup-message{
+    color: #0b3c5d;
+}
+
+.signup-title{
+    font-size: 24px;
+}
+.signup-message{
+    font-size: 18px;
+}
+.signup-button{
+    border: 2px solid #0b3c5d;
+    border-radius: 0.5em;
+    flex-shrink: 0;
+}
+button {
+    background-color: transparent;
+    font-size: 18px;
+    border: none;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    cursor: pointer;
 }
