@@ -202,5 +202,8 @@ div>a{
 footer{
     display: flex;
     justify-content: center;
-    margin-top: auto;
+    
+}
+.content1, .content2, .content3, .content4{
+    flex-grow: 1;
 }
